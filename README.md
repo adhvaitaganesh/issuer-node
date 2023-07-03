@@ -7,6 +7,8 @@ This is a set of tools and APIs for issuers of zk-proof credentials, designed to
 
 This repository is for anyone to create their own [issuer node](https://0xpolygonid.github.io/tutorials/issuer-node/issuer-node-overview/) for Polygon ID.
 
+Refer to docs/eamples/schemas to use example schema for medical prescription issuance. And refer here (https://0xpolygonid.github.io/tutorials/issuer/schema/) for the information on how to add custom schema for issuer-node.  
+
 ---
 
 ## Installation
