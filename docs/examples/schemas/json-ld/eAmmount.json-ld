@@ -1,0 +1,26 @@
+
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "AmmountCredential": {
+          "@id": "https://raw.githubusercontent.com/adhvaitaganesh/MedSchema/main/json-ld/eAmmount.json-ld#AmmountCredential",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://github.com/adhvaitaganesh/MedSchema/blob/main/README.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "ammount": {
+              "@id": "vocab:ammount",
+              "@type": "xsd:integer"
+            }
+          }
+        }
+      }
+    ]
+  }

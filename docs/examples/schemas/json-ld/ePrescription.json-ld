@@ -1,0 +1,49 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "PrescriptionCredential": {
+          "@id": "https://raw.githubusercontent.com/adhvaitaganesh/MedSchema/main/json-ld/ePrescription.json-ld#PrescriptionCredential",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://github.com/0xPolygonID/sh-id-platform/blob/main/docs/examples/schemas/vocab/exampleEmployee.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "issueDate": {
+              "@id": "vocab:issueDate",
+              "@type": "xsd:dateTime"
+            },
+            "drug": {
+              "@id": "vocab:drug",
+              "@type": "xsd:string"
+            },
+            "strength": {
+              "@id": "vocab:strength",
+              "@type": "xsd:integer"
+            },
+            "ammount": {
+              "@id": "vocab:ammount",
+              "@type": "xsd:integer"
+            },
+            "refills": {
+              "@id": "vocab:refills",
+              "@type": "xsd:integer"
+            },
+            "route": {
+              "@id": "vocab:route",
+              "@type": "xsd:string"
+            },
+            "frequency": {
+              "@id": "vocab:frequency",
+              "@type": "xsd:string"
+            }
+          }
+        }
+      }
+    ]
+  }

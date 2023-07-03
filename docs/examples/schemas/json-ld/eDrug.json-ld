@@ -1,0 +1,25 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "DrugCredential": {
+          "@id": "https://raw.githubusercontent.com/adhvaitaganesh/MedSchema/main/json-ld/eDrug.json-l#DrugCredential",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://github.com/adhvaitaganesh/MedSchema/blob/main/README.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "drug": {
+              "@id": "vocab:drug",
+              "@type": "xsd:string"
+            }
+          }
+        }
+      }
+    ]
+  }

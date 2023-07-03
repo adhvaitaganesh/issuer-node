@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/0xPolygonID/issuer-node/main/docs/examples/schemas/json-ld/exampleDate.json-ld",
-        "jsonSchema": "https://raw.githubusercontent.com/0xPolygonID/issuer-node/main/docs/examples/schemas/json/exampleDate.json"
+        "jsonLdContext": "https://raw.githubusercontent.com/adhvaitaganesh/MedSchema/main/json-ld/ePrescription.json-ld",
+        "jsonSchema": "https://raw.githubusercontent.com/adhvaitaganesh/MedSchema/main/json-ld/ePrescription.json"
       }
     },
     "required": [
@@ -106,7 +106,13 @@
         "type": "object",
         "required": [
           "id",
-          "hireDate"
+          "drug",
+          "issueDate",
+          "strength",
+          "ammount",
+          "refills",
+          "route",
+          "frequency"
         ],
         "properties": {
           "id": {
@@ -114,9 +120,28 @@
             "type": "string",
             "format": "uri"
           },
-          "hireDate": {
+          "drug": {
+            "type": "string"
+          },
+          "issueDate": {
             "type": "string",
             "format": "date-time"
+          },
+
+          "strength": {
+            "type": "integer"
+          },
+          "ammount": {
+            "type": "integer"
+          },
+          "refills": {
+            "type": "integer"
+          },
+          "route": {
+            "type": "string"
+          },
+          "frequency": {
+            "type": "string"
           }
         }
       }

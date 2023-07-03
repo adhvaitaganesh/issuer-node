@@ -1,0 +1,25 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "FrequencyCredential": {
+          "@id": "https://raw.githubusercontent.com/adhvaitaganesh/MedSchema/main/json-ld/eFrequency.json-ld#FrequencyCredential",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://github.com/adhvaitaganesh/MedSchema/blob/main/README.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "frequency": {
+              "@id": "vocab:frequency",
+              "@type": "xsd:string"
+            }
+          }
+        }
+      }
+    ]
+  }
